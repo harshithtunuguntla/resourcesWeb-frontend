@@ -82,7 +82,7 @@ const PipelineWeb = () => {
   };
 
   const insertUserData = () => {
-    fetch("/", {
+    fetch("https://resourcesweb-backend.onrender.com/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
