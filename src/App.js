@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import StackWeb from './Components/StackWeb/StackWeb';
 import PipelineWeb from './Components/PipelineWeb/PipelineWeb';
+import PipelineWebHundred from './Components/PipelineWebHundred/PipelineWebHundred';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom' 
 
 function App() {
@@ -10,6 +11,10 @@ function App() {
     {
       path:"/",
       element:<><PipelineWeb/></>
+    },
+    {
+      path:"/100",
+      element:<><PipelineWebHundred/></>
     },
     {
       path:"/stack/:stackid",
